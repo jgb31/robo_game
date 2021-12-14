@@ -14,16 +14,16 @@ Website is used for object selection. Users have to open the website and choose 
 ### Hardware Used
 
 Parts List: 
-· Robot chassis
-· Raspberry pi 3b
-· Pi camera
-· Dual H-bridge motor driver (tb6612fng)
-· DC motors (x4)
-· Wheel (x4)
-· Battery pack
-· AAA batteries (x4)
-· DC barrel power jack
-· Portable rechargeable battery
+* Robot chassis
+* Raspberry pi 3b
+* Pi camera
+* Dual H-bridge motor driver (tb6612fng)
+* DC motors (x4)
+* Wheel (x4)
+* Battery pack
+* AAA batteries (x4)
+* DC barrel power jack
+* Portable rechargeable battery
 
 Dual TB6612FNG Motor Driver Pinout Table:
 
