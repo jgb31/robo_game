@@ -28,5 +28,5 @@ Object detection is implemented using open source pre-trained TensorFlow model. 
 
 ## Website
 
-Website is used for object selection. Users have to open the website and choose the object that they want to find. Once the obeject is selected, `app.py` calls object detection algorithm script, `tfLite.py', and reads the outputs from `tfLite.py`. Once `app.py` receives the selected object's name and its confidence level higher than 0.60, it will exit the object detection script and redirects to the `success.html`
+Website is used for object selection. Users have to open the website and choose the object that they want to find. Once the obeject is selected, `app.py` calls object detection algorithm script, `tfLite.py`, and reads the outputs from `tfLite.py`. Once `app.py` receives the selected object's name and its confidence level higher than 0.60, it will exit the object detection script and redirects to the `success.html`
 
