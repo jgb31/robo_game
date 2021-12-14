@@ -60,7 +60,7 @@ The user will first need to correctly set up their phone. They must install the 
 
 ** Insert picture of BlueDot app **
 <p align="center">
-	<img src="images/Screenshot_20211214-010031.jpg" width="250" height="250">
+	<img src="images/Screenshot_20211214-010031.jpg" width="200" height="300">
 </p>
 
 ### End Results
