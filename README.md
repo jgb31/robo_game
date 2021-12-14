@@ -6,7 +6,7 @@ RoboGame is a RC robot that can be controlled via Bluetooth on the Raspberry Pi 
 
 ## Webpage
 
-Website is used for object selection. Users have to open the website and choose the object that they want to find. Once the obeject is selected, `app.py` calls object detection algorithm script, `tfLite.py`, and reads the outputs from `tfLite.py`. Once `app.py` receives the selected object's name and its confidence level higher than 0.60, it will exit the object detection script and redirects to the `success.html`
+Website is used for object selection. Users have to open the website and choose the object that they want to find. Once the obeject is selected, `app.py` calls object detection algorithm script, `tfLite.py`, and reads the outputs from `tfLite.py`. Once `app.py` receives the selected object's name and its confidence level higher than 0.60, it will exit the object detection script and redirects to the `success.html`. If `app.py` does not receive the name of the selected obeject (if object detection fails) within 10 seconds, it will redirect to the `fail.html` and gives users an option to try again.
 
 
 ## Robot Movement
