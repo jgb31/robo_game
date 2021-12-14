@@ -55,7 +55,7 @@ The robot is controlled via Bluetooth using an app called Blue Dot - created by 
 
 The user will first need to correctly set up their phone. They must install the Blue Dot app on their phone, enable Bluetooth, and then connect to the same Wifi used by the Raspberry Pi. Next, the Blue Dot python program can be run. The user will pair their phone with the raspberry pi and connect to it by clicking its icon on the main menu. Shortly after, the big blue dot will appear on their phone to direct the motion of the robot. 
 
-BlueDot Getting Started: https://bluedot.readthedocs.io/en/latest/gettingstarted.html
+BlueDot Getting Started: https://bluedot.readthedocs.io/en/latest/gettingstarted.html \
 BlueDot API Documentation: https://bluedot.readthedocs.io/en/latest/dotapi.html
 
 <p align="center">
