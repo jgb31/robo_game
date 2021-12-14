@@ -15,7 +15,7 @@ Website is used for object selection. Users have to open the website and choose 
 
 ### Hardware Used
 
-Parts List: 
+#### Parts List
 * Robot chassis
 * Raspberry pi 3b
 * Pi camera
