@@ -2,7 +2,7 @@
 
 ## Overview
 
-RoboGame is a RC robot that can be controlled via Bluetooth on the Raspberry Pi 4. It uses computer vision to detect if the object that the user has chosen 
+RoboGame is a RC robot that can be controlled via Bluetooth on the Raspberry Pi 4. It uses computer vision to detect if the object that the user has chosen is detected. 
 
 ## Webpage
 
@@ -29,7 +29,7 @@ Website is used for object selection. Users have to open the website and choose 
 
 #### Dual TB6612FNG Motor Driver Pinout Table
 
-| H-bridge motor driver  | External hardware                        | Raspberry pi 3b  | 
+| H-bridge Motor Driver  | External Hardware                        | Raspberry Pi 3b  | 
 | ---------------------- | ---------------------------------------- |----------------- | 
 | VM                     | 6 V battery pack power                   |                  |
 | VCC                    |                                          | 5 V              |
