@@ -50,6 +50,8 @@ Dual TB6612FNG Motor Driver Pinout Table:
 
 The robot is controlled via Bluetooth using an app called Blue Dot - created by Martin O'Hanlon. Blue Dot allows you to control the Raspberry Pi as a "bluetooth remote" by using a simple Python library. The motion of the robot uses an intuitive approach by having the user select top, bottom, left, or right on the blue dot located at the center of the app to move the robot in its respective direction.
 
+The user will first need to correctly set up their phone. They must install the Blue Dot app on their phone, enable Bluetooth, and then connect to the same Wifi used by the Raspberry Pi. Next, the Blue Dot python program can be run. The user will pair their phone with the raspberry pi and connect to it by clicking its icon on the main menu. Shortly after, the big blue dot will appear on their phone to direct the motion of the robot. 
+
 ** Insert picture of BlueDot app **
 
 ### End Results
