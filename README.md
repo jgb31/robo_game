@@ -6,14 +6,45 @@ RoboGame is a RC robot that can be controlled via Bluetooth on the Raspberry Pi 
 
 ## Webpage
 
-Website is used for object selection. Users have to open the website and choose the object that they want to find. Once the obeject is selected, `app.py` calls object detection algorithm script, `tfLite.py`, and reads the outputs from `tfLite.py`. Once `app.py` receives the selected object's name and its confidence level higher than 0.60, it will exit the object detection script and redirects to the `success.html`. If `app.py` does not receive the object's name (if objection detection has failed to find selected object), it redirects to the `fail.html` and gives user an option to try again.
+Website is used for object selection. Users have to open the website and choose the object that they want to find. Once the obeject is selected, `app.py` calls object detection algorithm script, `tfLite.py`, and reads the outputs from `tfLite.py`. Once `app.py` receives the selected object's name and its confidence level higher than 0.60, it will exit the object detection script and redirects to the `success.html`
 
 
 ## Robot Movement
 
 ### Hardware Used
 
+Parts List: 
+· Robot chassis
+· Raspberry pi 3b
+· Pi camera
+· Dual H-bridge motor driver (tb6612fng)
+· DC motors (x4)
+· Wheel (x4)
+· Battery pack
+· AAA batteries (x4)
+· DC barrel power jack
+· Portable rechargeable battery
 
+Dual TB6612FNG Motor Driver Pinout Table:
+
+| H-bridge motor driver  | External hardware                        | Raspberry pi 3b  | 
+| ---------------------- | ---------------------------------------- |----------------- | 
+| VM                     | 6 V battery pack power                   |                  |
+| VCC                    |                                          | 5 V              |
+| GND                    | Battery pack ground                      |                  |
+| A01                    | Front & rear right DC motor, black wire  |                  |
+| A02                    | Front & rear right DC motor, red wire    |                  |
+| B02                    | Front & rear left DC motor, red wire     |                  |
+| B01                    | Front & rear left DC motor, black wire   |                  |
+| PWMB                   |                                          | 19               |
+| B12                    |                                          | 26               |
+| B11                    |                                          | 21               |
+| STBY                   | 6 V battery pack power                   |                  |
+| A11                    |                                          | 5                |
+| A12                    |                                          | 6                |
+| PWMA                   |                                          | 13               |
+
+	 	
 
 ### Bluetooth Control
 
