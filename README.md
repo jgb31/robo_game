@@ -27,7 +27,7 @@ Website is used for object selection. Users have to open the website and choose 
 * DC barrel power jack
 * Portable rechargeable battery
 
-Dual TB6612FNG Motor Driver Pinout Table:
+#### Dual TB6612FNG Motor Driver Pinout Table
 
 | H-bridge motor driver  | External hardware                        | Raspberry pi 3b  | 
 | ---------------------- | ---------------------------------------- |----------------- | 
