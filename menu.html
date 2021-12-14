@@ -1,0 +1,42 @@
+<html>
+    <head>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <style>
+            
+            body {
+                    font-family: 'Montserrat';
+                    font-size: 16px;
+                    text-align: center;
+            }
+        </style>
+        <title>Choose an object below!</title>
+    </head>	
+
+    <body>
+        <h1>Find one of the objects below!</h1>
+        <h2>Once you find it, select the respective button</h2>
+
+        <h1>KEYBOARD</h1>
+        <p> <img src="{{url_for('static', filename='photos/keyboard.jpg')}}", width="150" height="100"></p>
+       
+        <form method="POST">
+            <input type="hidden" name="btn_identifier" value="keyboard" />
+            <input type="submit" value="Select" />
+        </form>
+
+        <h1>MOUSE</h1>
+        <p> <img src="{{url_for('static', filename='photos/mouse.jpeg')}}", width="100" height="100"></p>
+        <form method="POST">
+            <input type="hidden" name="btn_identifier" value="mouse" />
+            <input type="submit" value="Select" />
+        </form>
+
+        <h1>BANANA</h1>
+        <p> <img src="{{url_for('static', filename='photos/banana.jpeg')}}", width="100" height="100"></p>
+        <form method="POST">
+            <input type="hidden" name="btn_identifier" value="banana" />
+            <input type="submit" value="Select" />
+        </form>
+    </body>
+</html>
+
