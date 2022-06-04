@@ -6,7 +6,7 @@
 
 ## Overview
 
-RoboGame is a RC robot that can be controlled via Bluetooth on the Raspberry Pi 4. It uses computer vision to detect if the object that the user has chosen is detected. 
+RoboGame is a RC robot that can be controlled via Bluetooth on the Raspberry Pi 3 Model B. It uses computer vision to detect if the object that the user has chosen is detected. 
 
 ## Webpage
 
